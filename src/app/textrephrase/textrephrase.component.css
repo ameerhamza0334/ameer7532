@@ -1,0 +1,94 @@
+
+::ng-deep :root{
+    --primary-color :  indigo;
+    --text-color  :white;
+    --nav-fontsize : 500;
+    
+    }
+    .nav.navbar-nav.navbar-right li a {
+        color:var(--text-color);
+        position: fixed; 
+    }
+    
+    .active{
+    border: var(--text-color) 2px solid !important;
+    border-radius : 5px !important;
+    
+    }
+    
+    html {
+        scroll-behavior: smooth;
+      }
+    
+    
+    #mid-column{
+    text-align: center; 
+    }
+    
+    #navbarTogglerDemo03 .nav-item .nav-link:hover{
+        border: white 2px solid !important;
+        border-radius : 5px !important;
+        
+    
+    }
+    
+    .navbar-brand{
+    
+        margin-left:24%;
+        font-weight: var(--nav-fontsize);
+        color: var(--text-color) !important;
+    }
+    #tbl_div{
+        overflow-x: auto;
+
+    }
+    
+    .inner{
+    background-color: var(--primary-color);
+     
+    
+    }
+    .text-heading{
+    
+        font-weight: var(--nav-fontsize);
+    }
+    .nav-link{
+    
+        font-weight: var(--nav-fontsize);
+         color:var(--text-color) !important;
+    }
+    #cover-row{
+        background-color: var(--primary-color);
+    }
+    
+    .table thead tr td{
+    text-align: center;
+    font-size: x-large;
+    
+    } 
+    
+
+td{
+text-align: center;
+
+}
+
+    .cover-heading{
+    color:var(--text-color);
+    text-align: center;
+    }
+    
+    div[class="container-fluid"]{
+    
+    }
+    
+    
+    .form-control{
+        resize: none;
+        height: 12%;
+    }
+    
+    .lead{
+        color:var(--text-color);
+        text-align: center !important;    
+        }   

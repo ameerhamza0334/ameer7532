@@ -1,0 +1,44 @@
+<div class="main">
+<nav class="navbar sticky-top navbar-expand-lg navbar-light " style="background-color: indigo;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#"  >{{AppName}}</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03" >
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin-left: 44%" id="listlinks">
+      <li class="nav-item " id="linklist-1">
+        <a class="nav-link" href="#" (click) = onnavclick($event) id="navlink-1">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" id="linklist-2">
+        <a class="nav-link" href="#SpinText"  id="navlink-2" (click) = onnavclick($event)>Spin Text</a>
+      </li>
+      <li class="nav-item" id="linklist-3">
+        <a class="nav-link " href="#SpinDocuments"  id="navlink-3" (click) = onnavclick($event)>Spin Documents</a>
+      </li>
+    </ul>
+   
+  </div>
+</nav>
+<div class="container-fluid" >
+  <div class="row" id="cover-row">
+    <div class="col-md-3 "></div>
+      <div class="col-md-6" id="mid-column">
+        <div class="inner cover" >
+          <h1 class="cover-heading">{{AppName}}</h1>
+          <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+          <!-- <p class="lead">
+            <a href="#" class="btn btn-lg btn-default" id="">Learn more</a>
+          </p> -->
+        </div>
+  </div>
+  <div class="col-md-3 "></div>
+      </div>
+
+    </div>
+
+    <div id="SpinText">
+        <app-textrephrase></app-textrephrase>
+    </div>
+    <app-fileupload></app-fileupload>
+</div>
