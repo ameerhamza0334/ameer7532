@@ -11,6 +11,7 @@ import {MatListModule,
 import { FormsModule } from '@angular/forms';
 import { FileuploadComponent } from './fileupload/fileupload.component';
 import { TextrephraseComponent } from './textrephrase/textrephrase.component';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 
 @NgModule({
@@ -30,7 +31,7 @@ import { TextrephraseComponent } from './textrephrase/textrephrase.component';
     MatIconModule,
 MatToolbarModule
 , FormsModule
-
+, DragDropModule
 
   ],
   providers: [],

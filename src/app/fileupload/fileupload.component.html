@@ -8,7 +8,8 @@
             
        <h2 style="text-align: center;margin-top: 1%;">Drag & Drop Files or Upload</h2> 
        <p hidden id="txt_filename"></p>
-       <button class="btn btn-dark btn-lg" style="margin-top: 15%;margin-bottom: 1%;margin-left: 45%; ">Upload</button>
+       <input type="file" hidden="true" id="fileManager"/>
+       <button type="button" class="btn btn-dark btn-lg" id="btn_upload" (click)="fileupload_Click()" style="margin-top: 15%;margin-bottom: 1%;margin-left: 45%;">Upload</button>
         </div>
       </div>
       <div class="col-md-1">

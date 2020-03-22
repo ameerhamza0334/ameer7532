@@ -12,4 +12,11 @@ export class FileuploadComponent implements OnInit {
   ngOnInit() {
   }
 
+
+  fileupload_Click(){
+    var fileManager = document.getElementById("fileManager");
+    fileManager.click();
+    
+  }
+
 }
